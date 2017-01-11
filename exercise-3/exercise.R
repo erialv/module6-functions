@@ -1,17 +1,18 @@
 # Exercise-3: Calling built-in functions
 
 # Create a variable `my.name` that contains your name
-
+my.name <- ("Erianne")
 
 # Create a variable `name.length` that holds how many letters are in your name (use the `nchar()` function)
-
+name.length <- nchar("Erianne")
 
 # Print the number of letters in your name
-
+print(name.length)
 
 # Create a variable `now.doing` that is your named followed by "is programming!" to the end of your name
 # (use the `paste()` function)
-
+now.doing <- paste("Erianne", "is programming!")
+print(now.doing)
 
 # Make the `now.doing` variable upper case
 
@@ -19,9 +20,11 @@
 ### Bonus
 
 # Pick two of your favorite numbers (between 1 and 100) and assign them to `fav.1` and `fav.2`
-
+fav.1 <- 4
+fav.2 <- 30
 
 # Divide each number by the square root of 201 and save it as the same variable
+
 
 
 # Create a variable `raw.sum` that is the sum of those two variables. Use the `sum()` function for practice
