@@ -3,7 +3,16 @@
 # Define a function `CompareLength` that takes in 2 character strings, and returns
 # the sentence of the form
 #   "The difference in length is N"
+CompareLength <- function(word.one, word.two) {
+  char.length1 <- nchar(word.one)
+  char.length2 <- nchar(word.two)
+  total <- sum(char.length1, char.length2)
+  total.length <- paste("The difference in length is ", total)
+  return(total.length)
+}
 
+CompareLength("hello", "somebody")
+CompareLength("lol", "lmao")
 
 # Pass two strings of different lengths to your `CompareLength` function
 
